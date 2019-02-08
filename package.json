@@ -1,0 +1,32 @@
+{
+  "name": "autoexcelbsb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "config": {
+    "adresDoPlikuExcel": "C:\\excel",
+    "sciezkaDoFolderuBackup": "C:\\excelBackup",
+    "typPrac": "PR - projektowe",
+    "nazwaProjektu": "amlSPERT - optymalizacja",
+    "godzinyPoswiecone": "7",
+    "rodzajPracy": "Tworzenie oprogramowania",
+    "nazwaUtworu": "amlSPERT",
+    "svnLogin": "posinski",
+    "svnAddress": "https://hvbysvn00.bsb.com.pl/svn/aml_spert/trunk/src"
+  },
+  "scripts": {
+    "test": "echo \"Nie żartuj sobie, w BSB nie ma czegoś takiego.\"",
+    "commitDay": "node index.js"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Renive/autoExcelBSB.git"
+  },
+  "author": "Piotr Osiński",
+  "license": "MIT",
+  "dependencies": {
+    "exceljs": "^1.7.0",
+    "node-svn-ultimate": "^1.1.0",
+    "yargs": "^12.0.5"
+  }
+}
